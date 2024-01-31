@@ -1,1 +1,15 @@
-test
+To use the REST API with McAfee Advanced Threat Defense (ATD), it's essential to understand some key guidelines and tools available for interaction. Here are some summarized points and resources that can help:
+
+Communication with the Cluster IP Address: When using the REST API on an ATD or Trellix Intelligent Sandbox (TIS) cluster, always communicate with the cluster IP address rather than the physical IP addresses of individual nodes. This approach ensures continuity even if the primary node fails and a backup node takes over.
+
+Job and Task IDs: The REST API uses long job and task IDs to uniquely identify jobs and tasks on individual nodes within the cluster. These IDs are essential for subsequent REST API queries like status lookup, task ID lookup, and downloading analysis reports.
+
+API Usage Examples: Specific example URLs for various operations like logging on/off, submitting samples, querying analysis status, and downloading reports are part of the guidelines.
+
+Tools for Interacting with ATD API: There are tools like robust-version-checker, robust-profiles, robust-search, and robust-watchdog, designed for various tasks like testing connection settings, pulling analyzer profiles, searching reports based on MD5 hash, and watching directories for new files to submit to ATD.
+
+Managing Outputs: The tools use system return codes to indicate the severity of the application and any faults or failures during submission. These codes help in understanding the status of operations performed via the API.
+
+Malware Ranking: Malware ranking is an integral part of the analysis, with different severity levels indicating the nature of the sample analyzed.
+
+For detailed guidelines and comprehensive understanding of the REST API usage with McAfee Advanced Threat Defense, you can refer to the resources provided by Trellix​​​​​​. These resources will provide deeper insights and specific technical details required for effective use of the API.
