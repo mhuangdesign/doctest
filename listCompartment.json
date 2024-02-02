@@ -1,0 +1,12 @@
+[{
+    "compartment_id": "ocid1.tenancy.oc1..aaaaaaaa5rmo36hios35euhptgipx35aqnynv3fya3ybkncwijtjliylqjga",
+    "defined_tags": {},
+    "description": "idcs-60d8dc449fb44d17a91402de13540da1|22617854|sysint@d3security.com-d3security management-966950",
+    "freeform_tags": {},
+    "id": "ocid1.compartment.oc1..aaaaaaaa5p2vex5jglhmryws7v76yq32vf5z3z6ihbccnb6hi5iwv5suddka",
+    "inactive_status": null,
+    "is_accessible": null,
+    "lifecycle_state": "ACTIVE",
+    "name": "ManagedCompartmentForPaaS",
+    "time_created": "2019-10-16T17:32:20.432000+00:00"
+}]
